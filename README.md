@@ -1,13 +1,8 @@
-# Radicle
-In botany, the radicle is the first part of a seedling (a growing plant embryo) to emerge from the seed during the process of germination. The radicle is the embryonic root of the plant, and grows downward in the soil.
+# Composer with WordPress
 
-In WordPress, it's an experimental MVC style theme that is just crazy enough to work.
+Following along and testing.
 
-# Disclaimer
-
-This theme was ported over from a production version that wasn't originally build with open-sourcing it in mind. It was made for a specific use case: a simple mobile theme for a WP Multisite install. It also contains some code to enable CDN assets to work correctly while using WP Total Cache.
-
-The odds are very low that you'll be able to use this theme as is without modifications.
+# From https://github.com/swalkinshaw/radicle
 
 # Theme Architecture
 
