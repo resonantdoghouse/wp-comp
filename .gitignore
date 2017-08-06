@@ -1,3 +1,4 @@
 cache/*
 config/app.php
 vendor
+wp
