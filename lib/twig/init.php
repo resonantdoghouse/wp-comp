@@ -2,9 +2,7 @@
 
   global $config;
 
-  require_once(TEMPLATEPATH . '/vendor/twig/lib/Twig/Autoloader.php');
-
-  Twig_Autoloader::register();
+  require_once(TEMPLATEPATH . '/vendor/autoload.php');
 
   $loader = new Twig_Loader_Filesystem(get_template_directory() . '/templates');
   $twig   = new Twig_Environment($loader, array(
@@ -19,5 +17,3 @@
   $twig->addExtension(new WordpressTwigExtension());
   $twig->addExtension(new AssetsTwigExtension());
   $twig->addExtension(new ThumbnailsTwigExtension());
-
-?>
