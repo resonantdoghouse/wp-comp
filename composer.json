@@ -18,18 +18,15 @@
                     "fancyguy/webroot-installer": "1.0.0"
                 }
             }
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/elliotcondon/acf.git"
         }
     ],
     "require": {
         "wordpress/wordpress": "4.8.1",
-        "elliotcondon/acf": "4.4.11"
+        "wpackagist-theme/meteorite":"*",
+        "wpackagist-plugin/wordpress-seo":"*"
     },
     "extra": {
-        "webroot-dir": "wp",
+        "webroot-dir": "wp/",
         "webroot-package": "wordpress/wordpress",
         "installer-paths": {
             "app/plugins/{$name}/": ["type:wordpress-plugin"],
